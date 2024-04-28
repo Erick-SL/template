@@ -1,0 +1,223 @@
+header {
+    padding: 20px;
+    position: fixed;
+    width: 99dvw;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+header .menu-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.teste{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/* MENU E LOGO */
+
+.menu-topo .menu-logo {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.menu-topo .menu-logo span {
+    font-weight: 200;
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu-topo .menu-logo span:hover {
+    background-color: rgba(194, 194, 194, 0.747);
+    border-radius: 20px;
+}
+
+.menu-topo .menu-logo h1 {
+    margin-left: 15px;
+    color: black;
+}
+
+/* BARRA DE PESQUISA */
+.menu-topo .pesquisa {
+    display: flex;
+    
+}
+
+.menu-topo .pesquisa input {
+    border: 1px #494949 solid;
+    border-radius: 20px 0 0 20px;
+    padding: 0px 20px;
+    width: 400px;
+    outline: none;
+}
+
+.menu-topo .pesquisa label {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    border-radius: 0 20px 20px 0;
+    padding: 5px 20px;
+    border: 1px solid #5a5a5a;
+    cursor: pointer;
+    border-left: none;
+}
+
+.menu-topo .pesquisa label:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.menu-topo .pesquisa label span {
+    display: flex;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 150;
+}
+
+/* Ações dos usuários */
+
+.menu-topo .user {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-topo .user .tema {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    position: relative;
+    margin-right: 20px;
+    transition: all .5s;
+
+}
+
+.menu-topo .user .tema .circle {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: scale(.8);
+    transition: all .5s;
+}
+
+.menu-topo .user .tema span {
+    color: rgb(251, 255, 0);
+    padding: 5px;
+}
+
+.menu-topo .user .tema span:nth-child(2) {
+    color: black;
+}
+
+.menu-topo .user .logar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #494949;
+    border-radius: 15px;
+}
+
+.menu-topo .user .logar:hover {
+    background-color: rgba(75, 75, 255, 0.178);
+    border: 1px solid rgba(75, 75, 255, 0.178);
+}
+
+.menu-topo .user .logar a {
+    align-items: center;
+    display: flex;
+    padding: 5px 15px;
+    color: rgb(108, 108, 255);
+}
+
+.menu-topo .user .logar a span {
+    font-weight: 200;
+    margin-right: 5px;
+    color: rgb(108, 108, 255);
+    font-size: 1.8rem;
+    display: flex;
+    align-self: center;
+}
+
+/* Menu lateral */
+
+header .menu-lateral{
+    position: fixed;
+    width: 200px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    left: 0;
+    top: 83px;
+
+}
+header .menu-lateral ul{
+    padding: 15px 25px;
+}
+header .menu-lateral ul li{
+    margin-top: 5px;
+}
+header .menu-lateral ul li a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: thin;
+    padding: 5px 0px;
+    border-radius: 7px;
+}
+
+header .menu-lateral ul.lista-menu-lateral li:nth-child(1) a{
+    color: black;
+    background-color: #4949492c;
+    font-weight: 600;
+}
+
+
+header .menu-lateral ul.lista-menu-lateral li:nth-child(1) a span{
+    filter: (10px 10px 0 black);
+}
+
+
+header .menu-lateral ul li a:hover{
+    background-color: #4949492c;
+}
+
+header .menu-lateral ul li a span{
+    margin-right: 15px;
+}
+header .menu-lateral .logar {
+    border-bottom: 1px solid #5a5a5a;
+    border-top: 1px solid #5a5a5a;
+    margin: 5px 0;
+    padding: 20px 25px;
+}
+
+header .menu-lateral .logar .login {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: 1px solid #5a5a5a;
+    border-radius: 8px;
+    color: rgb(108, 108, 255);
+}
+header .menu-lateral .logar .login span{
+    margin-right: 5px;
+}
+header .menu-lateral .logar .login:hover{
+    background-color: rgba(75, 75, 255, 0.178);
+    border: 1px solid rgba(75, 75, 255, 0.178);
+}
+

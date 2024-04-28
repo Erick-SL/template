@@ -1,0 +1,61 @@
+/* icone de mudar cor */
+.menu-topo .user .tema.dark .circle{ 
+    left: 32px;
+    background-color: rgb(0, 0, 0);
+}
+.menu-topo .user .tema.dark{
+    background-color: rgb(255, 255, 255);
+}
+
+body.dark{
+    background-color: #1d1d1d;
+}
+
+/* Header */
+
+header.dark{
+    background-color: #1d1d1d;
+}
+
+header.dark input, header.dark .menu-topo .pesquisa label{
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+header.dark .menu-topo .pesquisa label{
+    background-color: #2b2b2b;
+}
+header.dark .menu-logo, header.dark .menu-logo h1 {
+    color: white;
+}
+
+/* MENU LATERAL*/
+
+header.dark .menu-lateral{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+
+header.dark .menu-lateral ul li a{
+    color: white;
+}
+
+
+header.dark .menu-lateral ul.lista-menu-lateral li:nth-child(1) a{
+    color: rgb(255, 255, 255);
+    background-color: #a8a8a82c;
+    
+}
+header.dark .menu-lateral ul li a:hover{
+    background-color: #8d8d8d2c;
+}
+
+/* MAIN */
+main.dark{
+    background-color: #333333;
+    color: white;
+}
+main.dark section article{
+    background-color: #1d1d1d;
+
+}

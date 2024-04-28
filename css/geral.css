@@ -1,0 +1,11 @@
+@import url('menu.css');
+@import url('modoescuro.css');
+@import url('main.css');
+@import url('responsivo.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}

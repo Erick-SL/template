@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/geral.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="menu">
+        <nav class="menu-topo">
+            <div class="menu-logo"> <!-- Logo e menu mobile-->
+                <span id="menumobile" class="material-symbols-outlined">
+                    close
+                </span>
+                <a href="index.html">
+                    <h1>logo</h1>
+                </a>
+            </div>
+            <div class="teste">
+                <div class="pesquisa"> <!-- Barra de pesquisa -->
+                    <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisa">
+                    <label for="pesquisar">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </label>
+                </div>
+                <div class="user"> <!-- Ações dos usuários-->
+                    <div class="tema" id="dark">
+                        <div class="circle"></div>
+                        <span class="material-symbols-outlined">
+                            nightlight
+                        </span>
+                        <span class="material-symbols-outlined">
+                            light_mode
+                        </span>
+                    </div>
+                    <div class="logar">
+                        <a class="login" href="#">
+                            <span class="material-symbols-outlined">
+                                account_circle
+                            </span>
+                            <li>Iniciar sessão</li>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav id="menulatereal" class="menu-lateral">
+            <ul class="lista-menu-lateral"> <!-- Menu lateral | Explorar site -->
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <p class="tirarmobile">Início</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            local_fire_department
+                        </span>
+                        <p class="tirarmobile">Populares</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            shuffle
+                        </span>
+                        <p class="tirarmobile">Aleatório</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="logar mensagemlogin"> <!-- Login lateral -->
+                <p>Faça login para usar outras funções do site.</p>
+                <a class="login" href="index.html">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <p class="tirarmobile">Iniciar sessão</p>
+                </a>
+            </div>
+            <ul class="lista-info-lateral"> <!-- Menu lateral | informações e bugs -->
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            cognition
+                        </span>
+                        <p class="tirarmobile">Dar uma ideia</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            bug_report
+                        </span>
+                        <p class="tirarmobile">Reportar Bug</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link-menu-lateral" href="#">
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                        <p class="tirarmobile">Sobre o site</p>
+                    </a>
+                </li>
+                
+            </ul>
+            <li class="github">
+                <a class="link-menu-lateral" href="https://github.com/Erick-SL">
+                    <span>
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <p class="tirarmobile">GitHub</p>
+                </a>
+            </li>
+            <p class="erick">Site para fins de estudo.</p>
+        </nav>
+    </header>
+    <main><!-- Conteúdo -->
+        <section> <!-- Seção de lançamenotos -->
+            <h4>Novos lançamentos</h4>
+            <!-- Lançamento -->
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Falta: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>195</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+            <article>
+                <div class="conteudo">
+                    <a href="pag/conteudo.html">
+                        <img src="img/back1.png" alt="">
+                        <h1 class="titulo">One Piece</h1>
+                    </a>
+                </div>
+                <div class="info">
+                    <p class="ep">EP: <span>11505</span></p>
+                    <p class="lancamento">Lançamento: <span>2 </span><span>dias</span>, <span>15</span><span>
+                            horas</span></p>
+                    <p class="sinopse">Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um
+                        fruto do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora
+                        a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o
+                        próximo Rei dos Piratas.
+                    </p>
+                    <div class="icons">
+                        <div class="iconcss favorito">
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                            <span>15495</span>
+                        </div>
+                        <div class="iconcss acompanhar">
+                            <span class="material-symbols-outlined">
+                                notifications
+                            </span>
+
+                        </div>
+                        <div class="iconcss naogostei">
+                            <span class="material-symbols-outlined">
+                                thumb_down
+                            </span>
+                            <span>15495</span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js/escuro.js"></script>
+</body>
+
+</html>
